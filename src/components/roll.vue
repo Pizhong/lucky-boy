@@ -22,7 +22,7 @@ export default {
   mounted(){
     this.timer = setInterval(() => {
       this.scrollAnimate()
-    }, 1000);
+    }, 100);
   },
   destroyed(){
     clearInterval(this.timer)
