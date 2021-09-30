@@ -3,15 +3,18 @@
 -->
 <template>
   <div>
-    <roll></roll>
+    <!-- <roll></roll> -->
+    <three />
   </div>
 </template>
 
 <script>
 import Roll from '../components/roll.vue'
+import Three from '../components/three.vue'
 export default {
   components:{
-    Roll
+    Roll,
+    Three
   }
 }
 </script>
